@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int i,t,j,X,Y,sum=0;
+    scanf("%d",&t);
+
+    for(i=1;i<=t;i++)
+    {
+         scanf("%d %d", &X, &Y);
+         for(j=X;j<=Y;j++)
+         {
+
+             if(j%2==1)
+             {
+                 sum+=j;
+
+             }
+         }
+         printf("Case %d: %d\n",i,sum);
+         sum=0;
+    }
+    return 0;
+}

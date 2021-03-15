@@ -1,0 +1,5 @@
+Student name		Age	Phone number
+------------		---	-------------
+	
+	habib		 25	 123658912
+	Rabbani		 23	 1648795929
